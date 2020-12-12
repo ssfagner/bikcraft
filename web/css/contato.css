@@ -1,0 +1,139 @@
+/* introdução sobre */
+
+.introducao-contato {
+  background: url("../img/bg-contato-1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*orçamento*/
+.contato {
+  padding: 40px 0;
+}
+
+.contato_form {
+  padding-right: 20px;
+}
+.contato_form label {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.contato_form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec62e;
+  background: none;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contato_form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid #fec62e;
+  background: none;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn {
+  border: 3px solid #fec62e;
+  padding: 7px 30px;
+  color: #fec62e;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  background: none;
+}
+
+.btn:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.contato_mapa {
+  margin-bottom: 60px;
+}
+
+.contato_dados {
+  padding: 7px 28px;
+}
+
+.contato_dados h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fec62e;
+  font-weight: bold;
+  line-height: 23px;
+  letter-spacing: 2px;
+}
+
+.contato_dados span {
+  display: block;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
+}
+
+.dados_email {
+  margin-bottom: 40px;
+}
+
+.contato_dados ul {
+  padding-right: 60px;
+}
+
+.contato_dados ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.contato_dados ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+
+.contato_dados p {
+  margin: 8px 0;
+}
+/* icones redes */
+.redes_contato {
+  padding: 0 26px;
+}
+
+.redes_contato ul li {
+  display: inline-block;
+}
+
+.redes_contato ul li a {
+  border: 3px solid #fec62e;
+  padding: 10px;
+  display: block;
+  margin-right: 10px;
+}
+
+.redes_contato ul li a:hover {
+  border-color: #000;
+}
+
+.redes_contato h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #fec62e;
+  margin-top: 50px;
+  padding: 20px 0;
+}
